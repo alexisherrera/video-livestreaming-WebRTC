@@ -1,0 +1,21 @@
+{
+  "name": "streaming-videocalls",
+  "version": "1.0.0",
+  "description": "simple app using webrtc to stream videocalls",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "video",
+    "streaming"
+  ],
+  "author": "alexis herrera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-logger": "0.0.3"
+  }
+}
